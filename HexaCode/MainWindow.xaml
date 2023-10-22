@@ -24,12 +24,12 @@
                         <FontIcon Glyph="&#xE706;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem Content="Coder" Tag="HexaCode.Views.Coder" x:Name="cod" x:FieldModifier="public">
+                <NavigationViewItem Content="Crypter" Tag="HexaCode.Views.Coder" x:Name="cod" x:FieldModifier="public">
                     <NavigationViewItem.Icon>
                         <FontIcon Glyph="&#xE72E;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem Content="Décoder" Tag="HexaCode.Views.Decoder" x:Name="dec" x:FieldModifier="public">
+                <NavigationViewItem Content="Décrypter" Tag="HexaCode.Views.Decoder" x:Name="dec" x:FieldModifier="public">
                     <NavigationViewItem.Icon>
                         <FontIcon Glyph="&#xE785;"/>
                     </NavigationViewItem.Icon>

@@ -15,15 +15,15 @@
                 <Paragraph>
                     <Bold>HexaCode</Bold> est un outil de codage et de décodage de messages avec des clés spécifiques à chaque lettre.
                     <LineBreak/>
-                    Il contient aussi un système de messagerie en direct crypté (pas encore).
+                    Il contient aussi un système de messagerie en direct.
                     <LineBreak />
                     <LineBreak />
                     Vous pouvez dès maintenant commencer à utiliser l'application
                 </Paragraph>
             </RichTextBlock>
             <StackPanel Orientation="Horizontal" Margin="0,8">
-                <Button Content="Coder" Click="codbut_Click" Name="codbut"/>
-                <Button Content="Décoder" Margin="8,0" Click="decbut_Click" Name="decbut"/>
+                <Button Content="Crypter" Click="codbut_Click" Name="codbut" Style="{StaticResource AccentButtonStyle}"/>
+                <Button Content="Décrypter" Margin="8,0" Click="decbut_Click" Name="decbut" Style="{StaticResource AccentButtonStyle}"/>
             </StackPanel>
         </StackPanel>
         
