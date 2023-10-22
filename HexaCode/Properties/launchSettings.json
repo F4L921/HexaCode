@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HexaCode (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HexaCode (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
